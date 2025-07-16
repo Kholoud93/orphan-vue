@@ -11,7 +11,12 @@
     "orphans-create": "إضافة يتيم",
     "orphans-show": "بيانات اليتيم",
     "campaigns-delete": "حذف الحملة",
-    "orphans-edit": "تعديل بيانات اليتيم"
+    "orphans-edit": "تعديل بيانات اليتيم",
+    "videos": "الفيديوهات",
+    "videos-create": "إضافة فيديو",
+    "videos-show": "بيانات الفيديو",
+    "videos-delete": "حذف الفيديو",
+    "videos-edit": "تعديل بيانات الفيديو"
   },
   "error": "حدث خطأ ما",
   "warning": "تحذير",
@@ -113,6 +118,22 @@
 
     "confirm_delete": "تم حذف الحملة بنجاح",
     "confirm_delete_orphan": "تم حذف اليتيم",
+    "confirm_deleted": "تم الحذف"
+  },
+  "video_form": {
+     "title": "عنوان الفيديو",
+    "title_en": "عنوان الفيديو بالإنجليزية",
+    "title_ar": "عنوان الفيديو بالعربية",
+    "title_ms": "عنوان الفيديو بالماليزية",
+    "video_url": "رابط الفيديو التعريفي",
+    "status": "الحالة",
+    "show": "إظهار الفيديو",
+    "hide": "إخفاء الفيديو",
+    "is_main": "هل هو الفيديو الرئيسي؟",
+    "image": "صورة الفيديو",
+
+    "confirm_delete": "تم حذف الفيديو بنجاح",
+    "confirm_delete_orphan": "تم حذف الفيديو",
     "confirm_deleted": "تم الحذف"
   },
 

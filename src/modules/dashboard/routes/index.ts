@@ -86,6 +86,44 @@ const dashboardRoutes = [
     },
   },
 
+  //videos
+  {
+    name: "Allvideos",
+    path: "/dashboard/videos",
+    file: resolve(__dirname, "../pages/videos/View.vue"),
+    meta: {
+      middleware: ["require-auth", "valid-user"],
+      layout: "dashboard",
+    },
+  },
+  {
+    name: "videos-create",
+    path: "/dashboard/videos/create",
+    file: resolve(__dirname, "../pages/videos/Create.vue"),
+    meta: {
+      middleware: ["require-auth", "valid-user"],
+      layout: "dashboard",
+    },
+  },
+  {
+    name: "videos-show",
+    path: "/dashboard/videos/:id",
+    file: resolve(__dirname, "../pages/videos/Show.vue"),
+    meta: {
+      middleware: ["require-auth", "valid-user"],
+      layout: "dashboard",
+    },
+  },
+  {
+    name: "videos-edit",
+    path: "/dashboard/videos/:id/edit",
+    file: resolve(__dirname, "../pages/videos/Edit.vue"),
+    meta: {
+      middleware: ["require-auth", "valid-user"],
+      layout: "dashboard",
+    },
+  },
+
   // settings
   {
     name: "dashboard-settings",

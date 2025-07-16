@@ -12,7 +12,11 @@
     "orphans-show": "Orphan Details",
     "confirm_deleted": "Deleted successfully",
     "campaigns-delete": "Delete Campaign",
-    "orphans-edit": "Edit Orphan Details"
+    "orphans-edit": "Edit Orphan Details",
+    "videos": "Videos",
+    "videos-create": "Add Video",
+    "videos-show": "Video Details",
+    "videos-edit": "Edit Video Details"
   },
   "error": "An error occurred",
   "warning": "Warning",
